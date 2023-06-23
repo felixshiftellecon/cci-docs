@@ -1,0 +1,3 @@
+    - org/project wide recs
+    - jobs with same recommendations = high level rec
+      - more visible as a solution for multiple instances

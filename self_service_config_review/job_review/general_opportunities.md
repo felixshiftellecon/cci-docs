@@ -1,0 +1,3 @@
+    - step outputs
+    - do steps belong in this job
+    - Could this be DRYer

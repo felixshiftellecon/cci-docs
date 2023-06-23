@@ -1,0 +1,4 @@
+- job order
+- do jobs belong in this workflow
+- can triggers be dynamic
+- can jobs be dynamic
