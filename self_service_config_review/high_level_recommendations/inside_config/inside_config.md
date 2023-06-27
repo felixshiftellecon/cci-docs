@@ -1,4 +1,3 @@
-    - security
-    - config order
-    - Reusable Config
-    - Dynamic Config
+# Inside a Config File
+
+Features and opportunities that exist inside of a config file.
