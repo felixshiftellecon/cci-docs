@@ -1,6 +1,4 @@
-# Inside a Config File
 
-Features and opportunities that exist inside of a config file.
 
 [Self Service Configuration Review](self_service_config_review.md)
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
@@ -13,7 +11,7 @@ Features and opportunities that exist inside of a config file.
     - [Opportunities for Jobs with High Duration](job_review/high_duration.md)
 3. [Review Each Workflow for Improvement Opportunities](workflow_review/workflow_review.md)
 4. [High Level Improvement Opportunities](high_level_recommendations/high_level_recommendations.md)
-    - \>\>[Inside the Config](high_level_recommendations/inside_config/inside_config.md)<<
+    - [Inside the Config](high_level_recommendations/inside_config/inside_config.md)
         - [Config Security](high_level_recommendations/inside_config/config_security.md)
         - [Reusable Config](high_level_recommendations/inside_config/reusable_config.md)
         - [Dynamic Config](high_level_recommendations/inside_config/dynamic_config.md)
@@ -22,5 +20,4 @@ Features and opportunities that exist inside of a config file.
         - [Secret Management](high_level_recommendations/outside_config/secret_management.md)
         - [Storage Usage](high_level_recommendations/outside_config/storage_usage.md)
         - [Project Settings](high_level_recommendations/outside_config/project_settings.md)
-5. [Finalize Review](finalize_review/finalize_review.md)
-
+5. \>\>[Finalize Review](finalize_review/finalize_review.md)<<
