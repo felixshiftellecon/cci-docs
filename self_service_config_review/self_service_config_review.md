@@ -19,6 +19,7 @@ Discussion of best practices, tips, tricks, and feedback for each step should be
 Any feedback on the process as a whole should be discussed within this main post.
 
 \>\>[Self Service Configuration Review](self_service_config_review.md)<<
+
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
     - [Document the Config Review](review_preparation/document_review.md)
     - [Review CircleCI Features](review_preparation/review_features.md)

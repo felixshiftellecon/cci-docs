@@ -19,14 +19,15 @@ Parameterizing jobs can be a great way to make the config easier to maintain. [S
 If any of these reusable config keys are used in other projects, consider [creating an orb](https://circleci.com/docs/orb-concepts/) to allow those keys to be used cross project and be maintained in once place.
 
 [Self Service Configuration Review](self_service_config_review.md)
+
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
     - [Document the Config Review](review_preparation/document_review.md)
     - [Review CircleCI Features](review_preparation/review_features.md)
     - [Snapshot Project Metrics](review_preparation/snapshot_metrics.md)
-2. [Review Each Job for Improvement Opportunities](job_review/job_review.md)
-    - \>\>[General Job Opportunities](job_review/general_opportunities.md)<<
-    - [Execution Environment Opportunities](job_review/execution_environment.md)
-    - [Opportunities for Jobs with High Duration](job_review/high_duration.md)
+2. [Review Each Job for Improvement Opportunities](job_review.md)
+    - \>\>[General Job Opportunities](general_opportunities.md)<<
+    - [Execution Environment Opportunities](execution_environment.md)
+    - [Opportunities for Jobs with High Duration](high_duration.md)
 3. [Review Each Workflow for Improvement Opportunities](workflow_review/workflow_review.md)
 4. [High Level Improvement Opportunities](high_level_recommendations/high_level_recommendations.md)
     - [Inside the Config](high_level_recommendations/inside_config/inside_config.md)

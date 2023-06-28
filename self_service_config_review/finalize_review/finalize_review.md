@@ -1,6 +1,7 @@
 
 
 [Self Service Configuration Review](self_service_config_review.md)
+
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
     - [Document the Config Review](review_preparation/document_review.md)
     - [Review CircleCI Features](review_preparation/review_features.md)
@@ -20,4 +21,4 @@
         - [Secret Management](high_level_recommendations/outside_config/secret_management.md)
         - [Storage Usage](high_level_recommendations/outside_config/storage_usage.md)
         - [Project Settings](high_level_recommendations/outside_config/project_settings.md)
-5. \>\>[Finalize Review](finalize_review/finalize_review.md)<<
+5. \>\>[Finalize Review](finalize_review.md)<<

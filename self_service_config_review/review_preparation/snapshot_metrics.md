@@ -13,10 +13,11 @@ Metrics for all branches can be useful but for certain metrics, like success rat
 <!-- insert bash script here -->
 
 [Self Service Configuration Review](self_service_config_review.md)
-1. [Configuration Review Preparation](review_preparation/review_preparation.md)
-    - [Document the Config Review](review_preparation/document_review.md)
-    - [Review CircleCI Features](review_preparation/review_features.md)
-    - \>\>[Snapshot Project Metrics](review_preparation/snapshot_metrics.md)<<
+
+1. [Configuration Review Preparation](review_preparation.md)
+    - [Document the Config Review](document_review.md)
+    - [Review CircleCI Features](review_features.md)
+    - \>\>[Snapshot Project Metrics](snapshot_metrics.md)<<
 2. [Review Each Job for Improvement Opportunities](job_review/job_review.md)
     - [General Job Opportunities](job_review/general_opportunities.md)
     - [Execution Environment Opportunities](job_review/execution_environment.md)

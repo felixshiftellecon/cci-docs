@@ -15,6 +15,7 @@ CircleCI and our Partners maintain a number of orbs for common tools so reviewin
 Review the config file for any repeated configuration keys. Repeated keys should be consolidated into a reusable key or added to an orb. Creating [parameterized jobs](https://circleci.com/docs/reusing-config/#authoring-parameterized-jobs) allows for implementation of dynamic config and leads an easier to manage config in most cases.
 
 [Self Service Configuration Review](self_service_config_review.md)
+
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
     - [Document the Config Review](review_preparation/document_review.md)
     - [Review CircleCI Features](review_preparation/review_features.md)
@@ -24,11 +25,11 @@ Review the config file for any repeated configuration keys. Repeated keys should
     - [Execution Environment Opportunities](job_review/execution_environment.md)
     - [Opportunities for Jobs with High Duration](job_review/high_duration.md)
 3. [Review Each Workflow for Improvement Opportunities](workflow_review/workflow_review.md)
-4. [High Level Improvement Opportunities](high_level_recommendations/high_level_recommendations.md)
-    - [Inside the Config](high_level_recommendations/inside_config/inside_config.md)
-        - [Config Security](high_level_recommendations/inside_config/config_security.md)
-        - \>\>[Reusable Config](high_level_recommendations/inside_config/reusable_config.md)<<
-        - [Dynamic Config](high_level_recommendations/inside_config/dynamic_config.md)
+4. [High Level Improvement Opportunities](../high_level_recommendations.md)
+    - [Inside the Config](inside_config.md)
+        - [Config Security](config_security.md)
+        - \>\>[Reusable Config](reusable_config.md)<<
+        - [Dynamic Config](dynamic_config.md)
     - [Outside the Config](high_level_recommendations/outside_config/outside_config.md)
         - [Security Settings](high_level_recommendations/outside_config/security_settings.md)
         - [Secret Management](high_level_recommendations/outside_config/secret_management.md)

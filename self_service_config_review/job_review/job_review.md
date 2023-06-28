@@ -5,14 +5,15 @@
 It is important to review a config file line by line, job by job to ensure no opportunities are missed. After gathering metrics and gathering pain points it can be easy to only focus on problem areas that appear in the metrics. Instead, treat reviewing each job as a separate function from the metric data. This will allow you to find any improvement opportunities that are missed when looking at metrics and validate any assumptions made from the metric data.
 
 [Self Service Configuration Review](self_service_config_review.md)
+
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
     - [Document the Config Review](review_preparation/document_review.md)
     - [Review CircleCI Features](review_preparation/review_features.md)
     - [Snapshot Project Metrics](review_preparation/snapshot_metrics.md)
-2. \>\>[Review Each Job for Improvement Opportunities](job_review/job_review.md)<<
-    - [General Job Opportunities](job_review/general_opportunities.md)
-    - [Execution Environment Opportunities](job_review/execution_environment.md)
-    - [Opportunities for Jobs with High Duration](job_review/high_duration.md)
+2. \>\>[Review Each Job for Improvement Opportunities](job_review.md)<<
+    - [General Job Opportunities](general_opportunities.md)
+    - [Execution Environment Opportunities](execution_environment.md)
+    - [Opportunities for Jobs with High Duration](high_duration.md)
 3. [Review Each Workflow for Improvement Opportunities](workflow_review/workflow_review.md)
 4. [High Level Improvement Opportunities](high_level_recommendations/high_level_recommendations.md)
     - [Inside the Config](high_level_recommendations/inside_config/inside_config.md)

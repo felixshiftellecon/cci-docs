@@ -13,6 +13,7 @@ When reviewing workflows that fan out but never fan back in, see if the jobs cou
 Creating [parameterized jobs](https://circleci.com/docs/reusing-config/#authoring-parameterized-jobs) allows for further implementation of dynamic config and leads an easier to manage config in most cases. Those jobs can also be used to create matrix jobs.
 
 [Self Service Configuration Review](self_service_config_review.md)
+
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)
     - [Document the Config Review](review_preparation/document_review.md)
     - [Review CircleCI Features](review_preparation/review_features.md)
@@ -21,7 +22,7 @@ Creating [parameterized jobs](https://circleci.com/docs/reusing-config/#authorin
     - [General Job Opportunities](job_review/general_opportunities.md)
     - [Execution Environment Opportunities](job_review/execution_environment.md)
     - [Opportunities for Jobs with High Duration](job_review/high_duration.md)
-3. \>\>[Review Each Workflow for Improvement Opportunities](workflow_review/workflow_review.md)<<
+3. \>\>[Review Each Workflow for Improvement Opportunities](workflow_review.md)<<
 4. [High Level Improvement Opportunities](high_level_recommendations/high_level_recommendations.md)
     - [Inside the Config](high_level_recommendations/inside_config/inside_config.md)
         - [Config Security](high_level_recommendations/inside_config/config_security.md)

@@ -21,10 +21,11 @@ Collecting pain points from the whole team can be a great way to find opportunit
 A high duration is the most common metric of concern when doing a config review. Other metrics that come up often are success rate, mean time to recover, flaky tests, and credit consumption. [CircleCI's Insights](https://circleci.com/docs/insights/#overview) offers data for these metrics in the UI or [via the API](https://circleci.com/docs/api/v2/index.html#tag/Insights) and is a great way to not only identify areas of concern but also to ensure any changes made are having an impact.
 
 [Self Service Configuration Review](self_service_config_review.md)
-1. \>\>[Configuration Review Preparation](review_preparation/review_preparation.md)<<
-    - [Document the Config Review](review_preparation/document_review.md)
-    - [Review CircleCI Features](review_preparation/review_features.md)
-    - [Snapshot Project Metrics](review_preparation/snapshot_metrics.md)
+
+1. \>\>[Configuration Review Preparation](review_preparation.md)<<
+    - [Document the Config Review](document_review.md)
+    - [Review CircleCI Features](review_features.md)
+    - [Snapshot Project Metrics](snapshot_metrics.md)
 2. [Review Each Job for Improvement Opportunities](job_review/job_review.md)
     - [General Job Opportunities](job_review/general_opportunities.md)
     - [Execution Environment Opportunities](job_review/execution_environment.md)
