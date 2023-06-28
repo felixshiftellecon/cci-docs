@@ -26,7 +26,7 @@ Any feedback on the process as a whole should be discussed within this main post
 
 \>\>[Self Service Configuration Review](self_service_config_review.md)<<
 
-1. [Configuration Review Preparation](review_preparation.md)
+1. [Configuration Review Preparation](../review_preparation.md)
     - [Document the Config Review](document_review.md)
     - [Review CircleCI Features](review_features.md)
     - [Snapshot Project Metrics](snapshot_metrics.md)
