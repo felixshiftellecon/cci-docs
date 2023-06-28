@@ -4,6 +4,8 @@
 
 High level recommendations are identified opportunities that affect more than one workflow. These opportunities typically exist throughout the organization so recording them separately helps to raise awareness. It is also helpful to include opportunities that affect more than one job as they may exist elsewhere in the organization.
 
+---
+
 [Self Service Configuration Review](self_service_config_review.md)
 
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)

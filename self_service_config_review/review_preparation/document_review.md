@@ -13,6 +13,8 @@ The following information should be included in the document:
 
 As the config review is conducted, you will most likely find yourself referencing all sorts of documentation both internal and external. Recording the links to those docs can be very helpful for anyone working on the changes after the review or who wants to understand why a certain recommendation was made.
 
+---
+
 [Self Service Configuration Review](self_service_config_review.md)
 1. [Configuration Review Preparation](review_preparation.md)
     - \>\>[Document the Config Review](document_review.md)<<

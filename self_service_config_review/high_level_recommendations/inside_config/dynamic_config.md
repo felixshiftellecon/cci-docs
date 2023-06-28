@@ -14,6 +14,8 @@ To start using dynamic config, CircleCI has an orb that creates parameters based
 
 Review the pipeline and figure out what parameters could be created and used to trigger conditional workflows and jobs. Create a setup config that generates those parameters then uses the continuation orb to pass them to a downstream workflow.
 
+---
+
 [Self Service Configuration Review](self_service_config_review.md)
 
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)

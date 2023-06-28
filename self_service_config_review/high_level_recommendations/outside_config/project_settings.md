@@ -2,7 +2,36 @@
 
 ## Security
 
+Review project settings to ensure they are set correctly, this can be done via the UI or API. 
+
+Confirm that the following Advanced settings are toggled _off_ unless needed for your use case:
+
+- Build forked pull requests
+- Pass secrets to builds from forked pull requests
+
+Confirm that the following API project settings are toggled _on_ unless not needed for your use case:
+
+- disable-ssh
+- write-settings-requires-admin
+
+Confirm no unexpected SSH keys, project API tokens, or integrations are present.
+
 ## Non-security
+
+Review project settings to see if any options would be helpful with your use case. Helpful options include:
+
+- Only build pull requests
+- Auto-cancel redundant workflows
+- Enable dynamic config using setup workflows
+- GitHub Status Updates
+
+Review current triggers to ensure scheduled pipelines are running at the correct times. If there are no scheduled pipelines, consider implementing one.
+
+Review available integrations and see if any can be implemented to improve user experience.
+
+Review current webhooks to ensure they are being consumed appropriately. If webhooks aren't being used, consider implementing them.
+
+---
 
 [Self Service Configuration Review](self_service_config_review.md)
 

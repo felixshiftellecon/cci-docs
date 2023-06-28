@@ -2,11 +2,33 @@
 
 ## Caching
 
+Inspect the output of caching steps in jobs to ensure cache keys are regularly being found. If not, consider changing the cache key to be less specific or use a fallback key.
+
+For caching steps that are taking a long time, consider breaking up the cache into multiple caches and/or enabling RAM disk to speed up I/O operations.
+
 ## Workspaces
+
+Ensure data being added to a workspace is being used downstream and is able to be accessed.
+
+For workspace steps that are taking a long time, analyze the data for anything unnecessary and/or consider enabling RAM disk to speed up I/O operations.
 
 ## Artifacts
 
+Review how artifacts are used by the team that works in the project and see if adding or removing them would be helpful.
+
+In most cases if artifacts are uploaded to cloud storage, like an s3 bucket, they do not also need to be stored in CircleCI.
+
 ## Usage Controls
+
+Most organizations can benefit from reducing the default storage retention periods without seeing impact, which can save some credits. The common recommendation is below but should be adjusted based on use case and user feedback.
+
+| Setting     | CircleCI Default   | Recommendation |
+|-------------|--------------------|--------------------|
+| Artifacts   | 30 days            | 7 days             |
+| Workspaces  | 15 days            | 3 days             |
+| Caches      | 15 days            | 7 days             |
+
+---
 
 [Self Service Configuration Review](self_service_config_review.md)
 

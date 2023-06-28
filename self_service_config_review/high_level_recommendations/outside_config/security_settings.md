@@ -2,9 +2,29 @@
 
 ## Project Settings
 
+Review project settings to ensure they are set correctly, this can be done via the UI or API. 
 
+Confirm that the following Advanced settings are toggled _off_ unless needed for your use case:
+
+- Build forked pull requests
+- Pass secrets to builds from forked pull requests
+
+Confirm that the following API project settings are toggled _on_ unless not needed for your use case:
+
+- disable-ssh
+- write-settings-requires-admin
+
+Confirm no unexpected SSH keys, project API tokens, or integrations are present.
 
 ## Org Settings
+
+Confirm there are no unexpected technical or security contacts present. Add at least one if none are present.
+
+Confirm contexts are restricted appropriately.
+
+Ensure use of uncertified orbs is disabled if applicable.
+
+---
 
 [Self Service Configuration Review](self_service_config_review.md)
 

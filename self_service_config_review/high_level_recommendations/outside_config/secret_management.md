@@ -2,7 +2,15 @@
 
 ## OIDC
 
+Attempt to replace any static credentials used in CircleCI for connection to cloud environments with authentication using OIDC tokens. This is not available for all tools so some credentials may need to remain. A rotation policy should be created for those remaining credentials.
+
+A common and secure alternative to having static credentials in CircleCI is storing them in a secrets manager, like Vault or AWS Secrets Manager. OIDC can be used to authenticate with the secrets manager tool and pull secrets into the job.
+
 ## Contexts
+
+Ensure contexts are restricted to applicable security groups. If possible, migrate important secrets to a secrets manager and use OIDC to pull those secrets into jobs.
+
+---
 
 [Self Service Configuration Review](self_service_config_review.md)
 

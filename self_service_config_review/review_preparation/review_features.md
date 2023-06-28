@@ -1,6 +1,6 @@
 # Review CircleCI Features
 
-## 1) Look at new features
+## 1) Look at New Features
 
 CircleCI releases features at a fast pace and there may be something new that can help your project. Check the [changelog](https://circleci.com/changelog/) for new features and see if any can help with your use case.
 
@@ -11,6 +11,8 @@ The [configuration reference](https://circleci.com/docs/configuration-reference/
 ## 3) Record Features of Interest
 
 Record any features of interest for reference throughout the config review. If any recorded features are found not to be helpful, note why for future reference.
+
+---
 
 [Self Service Configuration Review](self_service_config_review.md)
 

@@ -2,6 +2,8 @@
 
 Features and opportunities that exist inside of a config file.
 
+---
+
 [Self Service Configuration Review](self_service_config_review.md)
 
 1. [Configuration Review Preparation](review_preparation/review_preparation.md)

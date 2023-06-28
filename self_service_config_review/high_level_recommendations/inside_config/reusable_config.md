@@ -8,11 +8,13 @@ CircleCI config files are written in YAML but that doens't mean they have to be 
 
 Orbs can be used to share configuration keys across an organization. This is especially useful if all projects need to use a certain tool, like SonarQube. The commands, executors, and parameters required to use the tool can be built into the orb.
 
-CircleCI and our Partners maintain a number of orbs for common tools so reviewing the orb registry is a great way to save yourself some time. Even if you need to create a private orb, the orb registry contains numerous examples from other users to reference.
+CircleCI and our Partners maintain a number of orbs for common tools so reviewing the orb registry is a great way to save yourself some time. Even if you need to create a private orb, the orb registry contains numerous examples to reference from other users.
 
 ## 3) Reusable Config
 
-Review the config file for any repeated configuration keys. Repeated keys should be consolidated into a reusable key or added to an orb. Creating [parameterized jobs](https://circleci.com/docs/reusing-config/#authoring-parameterized-jobs) allows for implementation of dynamic config and leads an easier to manage config in most cases.
+Review the config file for any repeated configuration keys. Repeated keys should be consolidated into a reusable key or added to an orb. Creating [parameterized jobs](https://circleci.com/docs/reusing-config/#authoring-parameterized-jobs) allows for implementation of dynamic config and leads to an easier to manage config in most cases.
+
+---
 
 [Self Service Configuration Review](self_service_config_review.md)
 
