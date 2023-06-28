@@ -2,15 +2,40 @@
 
 ## 1) Gather Project Metrics
 
-The UI can be used to gather metrics, but when doing multiple config reviews it is helpful to write a script that uses the CircleCI API. There are many Insights endpoints available to choose from, but a good place to start is the [project summary endpoint](https://circleci.com/docs/api/v2/index.html#operation/getProjectWorkflowsPageData) which provides metrics down to the branch level for workflows in the project.
+The UI can be used to gather metrics, but when doing multiple config reviews it is helpful to write a script that uses the CircleCI API. There are many [Insights](https://circleci.com/docs/insights/#overview) endpoints available to choose from, but a good place to start is the [project summary endpoint](https://circleci.com/docs/api/v2/index.html#operation/getProjectWorkflowsPageData) which provides metrics down to the branch level for [workflows](https://circleci.com/docs/glossary/#workflow) in the [project](https://circleci.com/docs/glossary/#project).
 
 ## 2) Separate Out Significant Branches
 
-Metrics for all branches can be useful but for certain metrics, like success rate or mean time to recovery, it is helpful to separate out metrics for important branches. Branches such as main, staging, qa, etc have different expectations so metric goals will be different as well. The [project summary endpoint](https://circleci.com/docs/api/v2/index.html#operation/getProjectWorkflowsPageData) can be filtered to show specific branches.
+Metrics for all branches can be useful but for certain metrics, like success rate or mean time to recovery, it is helpful to separate out important branches. Branches such as main, staging, qa, etc have different expectations so metric goals will be different as well. The [project summary endpoint](https://circleci.com/docs/api/v2/index.html#operation/getProjectWorkflowsPageData) can be filtered to show specific branches.
 
-## Example API script
+---
 
-<!-- insert bash script here -->
+---
+
+### Table of Contents
+
+[Self Service Configuration Review](self_service_config_review.md)
+
+1. [Configuration Review Preparation](review_preparation.md)
+    - [Document the Config Review](document_review.md)
+    - [Review CircleCI Features](review_features.md)
+    - \>\>[Snapshot Project Metrics](snapshot_metrics.md)<<
+2. [Review Each Job for Improvement Opportunities](job_review.md)
+    - [General Job Opportunities](general_opportunities.md)
+    - [Execution Environment Opportunities](execution_environment.md)
+    - [Opportunities for Jobs with High Duration](high_duration.md)
+3. [Review Each Workflow for Improvement Opportunities](workflow_review.md)
+4. [High Level Improvement Opportunities](high_level_recommendations.md)
+    - [Inside the Config](inside_config.md)
+        - [Config Security](config_security.md)
+        - [Reusable Config](reusable_config.md)
+        - [Dynamic Config](dynamic_config.md)
+    - [Outside the Config](outside_config.md)
+        - [Security Settings](security_settings.md)
+        - [Secret Management](secret_management.md)
+        - [Storage Usage](storage_usage.md)
+        - [Project Settings](project_settings.md)
+5. [Finalize Review](finalize_review.md)
 
 ---
 

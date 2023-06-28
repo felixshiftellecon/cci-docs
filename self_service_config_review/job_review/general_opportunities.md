@@ -6,9 +6,9 @@ Review each [step's](https://circleci.com/docs/glossary/#step) output to ensure 
 
 ## 2) Review Step Placement
 
-Review each step to see if it makes sense to have that step in the [job](https://circleci.com/docs/glossary/#job). A job typically has a singular purpose and steps may fit better in their own job or in a different order. For example, if linting and unit tests are being done in the same job it may be a good idea to move the unit tests to a separate job. Especially if setting up dependencies is quick.
+Review each step to see if it makes sense to have that step in the [job](https://circleci.com/docs/glossary/#job). A job typically has a singular purpose and steps may fit better in their own job or in a different order. For example, if linting and unit tests are being done in the same job it may be a good idea to move the unit tests to a separate job. Especially if setting up dependencies for those tests are quick.
 
-Having separation between various aspects of the pipeline allows those jobs to be run in parallel, reducing overall duration. The separation also provides clearer feedback when a [pipeline](https://circleci.com/docs/glossary/#pipeline) fails.
+Having separation between various aspects of the [pipeline](https://circleci.com/docs/glossary/#pipeline) allows those jobs to be run in parallel, reducing overall duration. The separation also provides clearer feedback when a pipeline fails.
 
 ## 3) Record Reusable Config Opportunities
 
@@ -16,29 +16,33 @@ Note any steps, groups of steps, [executors](https://circleci.com/docs/glossary/
 
 Parameterizing jobs can be a great way to make the config easier to maintain. [Steps can be conditional](https://circleci.com/docs/reusing-config/#defining-conditional-steps) to allow for multiple situations, for example a staging environment vs production. [Jobs can be conditional](https://circleci.com/docs/reusing-config/#authoring-parameterized-jobs) and have [pre or post steps](https://circleci.com/docs/reusing-config/#using-pre-and-post-steps) added to them which expands how parameterized jobs can be used.
 
-If any of these reusable config keys are used in other projects, consider [creating an orb](https://circleci.com/docs/orb-concepts/) to allow those keys to be used cross project and be maintained in one place.
+If any of these reusable config keys are used in other [projects](https://circleci.com/docs/glossary/#project), consider [creating an orb](https://circleci.com/docs/orb-concepts/) to allow those keys to be used cross project and be maintained in one place.
 
 ---
 
+---
+
+### Table of Contents
+
 [Self Service Configuration Review](self_service_config_review.md)
 
-1. [Configuration Review Preparation](review_preparation/review_preparation.md)
-    - [Document the Config Review](review_preparation/document_review.md)
-    - [Review CircleCI Features](review_preparation/review_features.md)
-    - [Snapshot Project Metrics](review_preparation/snapshot_metrics.md)
+1. [Configuration Review Preparation](review_preparation.md)
+    - [Document the Config Review](document_review.md)
+    - [Review CircleCI Features](review_features.md)
+    - [Snapshot Project Metrics](snapshot_metrics.md)
 2. [Review Each Job for Improvement Opportunities](job_review.md)
     - \>\>[General Job Opportunities](general_opportunities.md)<<
     - [Execution Environment Opportunities](execution_environment.md)
     - [Opportunities for Jobs with High Duration](high_duration.md)
-3. [Review Each Workflow for Improvement Opportunities](workflow_review/workflow_review.md)
-4. [High Level Improvement Opportunities](high_level_recommendations/high_level_recommendations.md)
-    - [Inside the Config](high_level_recommendations/inside_config/inside_config.md)
-        - [Config Security](high_level_recommendations/inside_config/config_security.md)
-        - [Reusable Config](high_level_recommendations/inside_config/reusable_config.md)
-        - [Dynamic Config](high_level_recommendations/inside_config/dynamic_config.md)
-    - [Outside the Config](high_level_recommendations/outside_config/outside_config.md)
-        - [Security Settings](high_level_recommendations/outside_config/security_settings.md)
-        - [Secret Management](high_level_recommendations/outside_config/secret_management.md)
-        - [Storage Usage](high_level_recommendations/outside_config/storage_usage.md)
-        - [Project Settings](high_level_recommendations/outside_config/project_settings.md)
-5. [Finalize Review](finalize_review/finalize_review.md)
+3. [Review Each Workflow for Improvement Opportunities](workflow_review.md)
+4. [High Level Improvement Opportunities](high_level_recommendations.md)
+    - [Inside the Config](inside_config.md)
+        - [Config Security](config_security.md)
+        - [Reusable Config](reusable_config.md)
+        - [Dynamic Config](dynamic_config.md)
+    - [Outside the Config](outside_config.md)
+        - [Security Settings](security_settings.md)
+        - [Secret Management](secret_management.md)
+        - [Storage Usage](storage_usage.md)
+        - [Project Settings](project_settings.md)
+5. [Finalize Review](finalize_review.md)
